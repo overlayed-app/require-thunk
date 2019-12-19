@@ -1,0 +1,7 @@
+.vscode/
+coverage/
+src/
+scripts/
+.eslintrc.json
+.prettierrc.json
+tsconfig.json
