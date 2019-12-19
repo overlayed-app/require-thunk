@@ -1,5 +1,5 @@
 {
-  "name": "require-thunk",
+  "name": "@overlayed-app/require-thunk",
   "version": "1.0.0",
   "description": "Thunk dependencies by modifying require 🧙‍♂️🔁",
   "main": "dist/index.js",

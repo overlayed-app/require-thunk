@@ -5,7 +5,7 @@ const src = `${__dirname}/../dist/index.d.ts`
 const dst = `${__dirname}/../index.d.ts`
 
 const input = fs.readFileSync(src, 'utf-8')
-const outputRaw = `declare module "require-thunk" {
+const outputRaw = `declare module "@overlayed-app/require-thunk" {
   ${input.replace(/declare/g, '')}
 }
 `
