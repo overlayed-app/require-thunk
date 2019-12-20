@@ -73,7 +73,7 @@ function enableThunking<TThunk = ThunkType>(
       return thunkCache.get(id)
     }
 
-    const orig = originalRequire(id)
+    const orig = originalRequire.apply(this, arguments as any)
 
     if (!selected) {
       return orig
